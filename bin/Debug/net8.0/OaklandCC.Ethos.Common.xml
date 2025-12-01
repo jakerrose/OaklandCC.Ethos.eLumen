@@ -1,0 +1,1507 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OaklandCC.Ethos.Common</name>
+    </assembly>
+    <members>
+        <member name="T:OaklandCC.Ethos.Common.EthosClient">
+            <summary>
+            Service that provides methos that can send requests to the Ethos API
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.#ctor(Microsoft.Extensions.Configuration.IConfiguration,OaklandCC.Ethos.Common.Services.Logger)">
+            <summary>
+            Class constructor that accepts the application configuration and the logger object through dependency injection
+            </summary>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.GetAuthTokenAsync">
+            <summary>
+            Retrieves an auth token from the Ethos API via a POST request to Auth
+            The auth token will be cached, and if it is needed again, it will be returned from the cache.
+            If the cached token expires, a new token will be retrieved.
+            </summary>
+            <returns>A JWT used for the authorization header of subsequent requests</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.GetRoomsAsync">
+            <summary>
+            Gets a List of Room objects via a GET request to the Ethos API
+            </summary>
+            <returns>A List of Room objects populated with the data retrieved from the Ethos API</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.GetRoomsAsync(OaklandCC.Ethos.Common.Models.Building)">
+            <summary>
+            Gets a List of Room objects via a GET request to the Ethos API filtered by building.
+            </summary>
+            <param name="building">The building to filter the rooms request by</param>
+            <returns>A List of Room objects associated with the provided building</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.GetRoomsAsync(System.String)">
+            <summary>
+            Gets a filtered List of Room objects via a GET request to the EThos API filtered by the supplied criteria string
+            </summary>
+            <param name="criteria">a stringified JSON object containing the parameters to filter by</param>
+            <returns></returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetByIDArrayAsStringAsync``1(System.String,System.String[])">
+            <summary>
+            Gets a List of Room objects via a GET request to the Ethos API for each ID in the provided array
+            </summary>
+            <typeparam name="T">Object type to return</typeparam>
+            <param name="resource">Resource name to query</param>
+            <param name="ids">Array of ids as strings</param>
+            <returns>A json string of T Objects populated with the retrieved data.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetByIDArrayAsync``1(System.String,System.String[])">
+            <summary>
+            Retrieves a List of T objects from the Ethos API for each ID in the provided array
+            </summary>
+            <typeparam name="T">The Type of objects to return</typeparam>
+            <param name="resource">The resource to query</param>
+            <param name="ids">The array of IDs to retrieve</param>
+            <returns>A List of T Objects populated with the data retrieved.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.SendRoomRequest(System.String)">
+            <summary>
+            Sends a GET request to the Ethos API for Room objects filtered by the supplied criteria string
+            </summary>
+            <param name="criteria">A JSON string containing the parameters to filter by</param>
+            <returns>A List of Room objects populated with the retrieved data.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetByIDAsStringAsync(System.String,System.String,System.String)">
+            <summary>
+            Retrieves an object from the Ethos API by ID as a string
+            </summary>
+            <param name="resource">The resource to query</param>
+            <param name="id">The ID to retrieve</param>
+            <param name="accept">Optional accept header to send to the API</param>
+            <returns>A JSON string containing the requested data</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetByIDAsync``1(System.String,System.String,System.String)">
+            <summary>
+            Retrieves an object of type T from the Ethos API
+            </summary>
+            <typeparam name="T">The Object type to return</typeparam>
+            <param name="resource">The resource to query</param>
+            <param name="id">The ID to retrieve</param>
+            <param name="accept">Optional accept header to send with the request</param>
+            <returns>An Object of type T containing the data retrieved</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetStringAsync(System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            Sends a GET request to the Ethos API and returns a string containing the response
+            </summary>
+            <param name="resource">The resource to query</param>
+            <param name="criteria">A JSON string containing the parameters to filter the request by</param>
+            <param name="limit">The maximum number of records to return</param>
+            <param name="offset">The record offset to request</param>
+            <param name="accept">The accept header to send with the request</param>
+            <param name="contentType">The content-type header to send with the request</param>
+            <returns>A string containing the response from the Ethos API</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetAllAsync``1(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Requests all records from the Ethos API for a given resource and returns them as a List of T objects
+            </summary>
+            <typeparam name="T">Type of Object List to return</typeparam>
+            <param name="resource">Resource to query</param>
+            <param name="criteria">JSON string containing the parameters to filter the results by</param>
+            <param name="accept">Accept header to send with the request</param>
+            <param name="limit">Maximum number of records per page</param>
+            <returns>A List of Objects of type T containing the retrieved data</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetLimitedAsync``1(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves a limited number of records from the Ethos API for a given resource and returns them as a List of T objects.
+            </summary>
+            <typeparam name="T">Type of Object List to return</typeparam>
+            <param name="resource">Resource to query</param>
+            <param name="criteria">JSON string containing the parameters to filter the results by</param>
+            <param name="accept">Accept header to send with the request</param>
+            <param name="limit">Maximum number of records to retrieve</param>
+            <returns>A List of Objects of type T containing the retrieved data</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetAllAsStringAsync(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Returns all records from the Ethos API for a given resource as a JSON string
+            </summary>
+            <param name="resource">Resource to query</param>
+            <param name="criteria">JSON string containing the parameters to filter the results by</param>
+            <param name="accept">Accept header to send with the requests</param>
+            <param name="limit">Maximum records per page</param>
+            <returns>A JSON string reqpresenting the requested data.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetSupervisorsAsync(OaklandCC.Ethos.Common.Models.Person,System.Boolean)">
+            <summary>
+            Returns the supervisor(s) of the provided person.
+            </summary>
+            <param name="person">The person whose supervisor you wish to retrieve</param>
+            <param name="includeInactive">Include inactive supervisory relationships</param>
+            <returns>A List of Person records representing the requested data</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetSupervisorsAsync(System.String,System.Boolean)">
+            <summary>
+            Using an ERP ID, retrieve an employee's supervisor record from the Ethos API
+            </summary>
+            <param name="erpId">The Colleague Person ID of the person who's supervisor data you need.</param>
+            <param name="includeInactive">If true, the method will also return previous supervisors</param>
+            <returns>A List of Person objects representing the user's supervisors</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetAsync(System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            This is the base Get Request method for the library. All other methods that perform a GET request
+            eventually call this method. This method will return an HttpResponseMessage object that contains the
+            response message from the Ethos API.
+            </summary>
+            <param name="resource">The Ethos API Resource to which you are sending a request</param>
+            <param name="criteria">A JSON object (stringified) that represents the filter criteria for the request</param>
+            <param name="limit">The max page limit to return from the API (if the Ethos API imposes a limit, it will override this parameter if exceeded.</param>
+            <param name="offset">The record offset to send with the request</param>
+            <param name="accept">The Accept header to send with the request</param>
+            <param name="contentType">The Content-Type header to send with the request</param>
+            <returns>An HttpResponseMessage object containing the response from the Ethos API</returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosGetActiveAsync(System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            This is the base Get Request method for the library. All other methods that perform a GET request
+            eventually call this method. This method will return an HttpResponseMessage object that contains the
+            response message from the Ethos API.
+            </summary>
+            <param name="resource">The Ethos API Resource to which you are sending a request</param>
+            <param name="activeOn">A JSON object (stringified) that represents the filter criteria for the request</param>
+            <param name="limit">The max page limit to return from the API (if the Ethos API imposes a limit, it will override this parameter if exceeded.</param>
+            <param name="offset">The record offset to send with the request</param>
+            <param name="accept">The Accept header to send with the request</param>
+            <param name="contentType">The Content-Type header to send with the request</param>
+            <returns>An HttpResponseMessage object containing the response from the Ethos API</returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.GetPersonByErpIdAsync(System.String)">
+            <summary>
+            Retrieves a Person record based on a Colleague Person ID
+            </summary>Et
+            <param name="erpId">The Colleague Person ID to retrieve</param>
+            <returns>A Person Object representing the retrieved Person</returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.EthosClient.EthosPost(System.String,System.String,System.String,System.String)">
+            <summary>
+            Sent a POST request to a resource of the Ethos API
+            </summary>
+            <param name="resource">The resource to which to send your payload</param>
+            <param name="payload">The payload to send to the resource</param>
+            <param name="accept">The Accept Header to send with the request</param>
+            <param name="contentType">The Content-Type Header to send with the request.</param>
+            <returns></returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Models.AcademicPeriodComparer">
+            <summary>
+            Compares two AcademicPeriod objects for equality based on their code property.
+            </summary>
+            <remarks>
+            This class implements the IEqualityComparer interface to provide custom equality comparison logic for AcademicPeriod objects.
+            It is used to ensure that AcademicPeriod objects with the same code are considered equal.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Models.AcademicPeriodComparer.Equals(OaklandCC.Ethos.Common.Models.AcademicPeriod,OaklandCC.Ethos.Common.Models.AcademicPeriod)">
+            <summary>
+            Compares two AcademicPeriod objects for equality based on their code property.
+            </summary>
+            <param name="x">The first AcademicPeriod object to compare.</param>
+            <param name="y">The second AcademicPeriod object to compare.</param>
+            <returns>True if the AcademicPeriod objects are equal; otherwise, false.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Models.AcademicPeriodComparer.GetHashCode(OaklandCC.Ethos.Common.Models.AcademicPeriod)">
+            <summary>
+            Returns a hash code for the specified AcademicPeriod object.
+            </summary>
+            <param name="obj">The AcademicPeriod object for which to generate a hash code.</param>
+            <returns>A hash code for the specified AcademicPeriod object.</returns>
+            <remarks>
+            This method is used to generate a hash code for the AcademicPeriod object based on its code property.
+            It is used in conjunction with the Equals method to ensure that AcademicPeriod objects with the same code have the same hash code.
+            </remarks>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EducationalInstitutionUnit.id">
+            <summary>
+            The unique identifier of the educational institution unit.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EducationalInstitutionUnit.type">
+            <summary>
+            The type of the educational institution unit (e.g., school, division, department).
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EducationalInstitutionUnit.name">
+            <summary>
+            The name of the educational institution unit.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EducationalInstitutionUnit.status">
+            <summary>
+            The status of the educational institution unit (e.g., active, inactive).
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EducationalInstitutionUnit.description">
+            <summary>
+            The description of the educational institution unit.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EducationalInstitutionUnit.createdOn">
+            <summary>
+            The date when the educational institution unit was created.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EducationalInstitutionUnit.lastUpdatedOn">
+            <summary>
+            The date when the educational institution unit was last updated.
+            </summary>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Models.Organization">
+            <summary>
+            Represents an organization with associated roles, credentials, addresses, and a unique identifier.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Organization.title">
+            <summary>
+            Gets or sets the title of the organization.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Organization.roles">
+            <summary>
+            Gets or sets the roles associated with the organization.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Organization.credentials">
+            <summary>
+            Gets or sets the credentials of the organization.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Organization.addresses">
+            <summary>
+            Gets or sets the addresses of the organization.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Organization.id">
+            <summary>
+            Gets or sets the unique identifier of the organization.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.SectionRegistration.academicPeriod">
+            <summary>
+            The academic period associated with the section registration.
+            This property is an extension implemented by OCC.
+            It is not part of the original Ethos API.
+            </summary>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Models.SiteLocation">
+            <summary>
+            Represents a site location with its associated details.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.SiteLocation.code">
+            <summary>
+            Gets or sets the code of the site location.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.SiteLocation.title">
+            <summary>
+            Gets or sets the title of the site location.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.SiteLocation.id">
+            <summary>
+            Gets or sets the unique identifier of the site location.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.SiteLocation.addressLines">
+            <summary>
+            Gets or sets the address lines of the site location.
+            </summary>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Models.StudentAcademicProgram">
+            <summary>
+            Represents a student's academic program at an institution
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.id">
+            <summary>
+            The unique identifier for this student academic program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.student">
+            <summary>
+            Reference to the student enrolled in the program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.program">
+            <summary>
+            Reference to the academic program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.site">
+            <summary>
+            The site (campus) at which the student is enrolled in the program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.academicLevel">
+            <summary>
+            The academic level associated with the program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.enrollmentStatus">
+            <summary>
+            The enrollment status of the student in the program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.startOn">
+            <summary>
+            The date the student started the program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.endOn">
+            <summary>
+            The date the student completed/ended the program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.curriculumObjective">
+            <summary>
+            The curriculum objective associated with the student's academic program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.credentials">
+            <summary>
+            The academic credentials that can be awarded for completing the program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.stprStuTerm">
+            <summary>
+            The term code associated with the student's academic program (STPR_STU_TERM)
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.StudentAcademicProgram.stprCurrentStatus">
+            <summary>
+            The current status code associated with the student's academic program (STPR_CURRENT_STATUS)
+            </summary>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Models.AcademicProgram">
+            <summary>
+            Represents an academic program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.AcademicProgram.id">
+            <summary>
+            The unique identifier for the academic program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.AcademicProgram.title">
+            <summary>
+            The title of the academic program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.AcademicProgram.code">
+            <summary>
+            The code that identifies the academic program
+            </summary>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Models.EnrollmentStatus">
+            <summary>
+            Represents a student's enrollment status in an academic program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EnrollmentStatus.status">
+            <summary>
+            The enrollment status (e.g., "active", "inactive")
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.EnrollmentStatus.detail">
+            <summary>
+            Additional details about the enrollment status
+            </summary>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Models.AcademicCredential">
+            <summary>
+            Represents a credential (degree, certificate, etc.) associated with an academic program
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.AcademicCredential.id">
+            <summary>
+            The unique identifier for this credential
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.AcademicCredential.type">
+            <summary>
+            The type of credential
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.AcademicCredential.title">
+            <summary>
+            The title of the credential
+            </summary>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Models.Subject">
+            <summary>
+            Subject is a class that represents a subject in the Ethos API.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Subject.abbreviation">
+            <summary>
+            The abbreviation of the subject.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Subject.title">
+            <summary>
+            The title of the subject.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Subject.id">
+            <summary>
+            The id of the subject.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Models.Subject.showInCatalog">
+            <summary>
+            Flag to indicate whether to show the subject in the catalog or not.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AcademicPeriodService.GetAllAcademicPeriodsAsync(System.Int32,System.String)">
+            <summary>
+            Retrieves all academic periods from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of academic periods to retrieve (default is 10).</param>
+            <returns>A list of AcademicPeriod objects.</returns>
+            
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AcademicPeriodService.GetAcademicPeriodByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific academic period by its ID from the Ethos API.
+            </summary>
+            <param name="academicPeriodId">The ID of the academic period to retrieve.</param>
+            <returns>An AcademicPeriod object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AcademicPeriodService.GetProcessingTermsAsync">
+            <summary>
+            Retrieves the processing terms, using the cache if available.
+            </summary>
+            <returns>A list of AcademicPeriod objects representing the processing terms.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AcademicPeriodService.GetActiveTermsAsync">
+            <summary>
+            Checks if there are one or more terms that are active based on today's date.
+            </summary>
+            <returns>A list of active AcademicPeriod objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AcademicPeriodService.GetActiveTermsExcludingAYAsync">
+            <summary>
+            Checks if there are one or more terms that are active based on today's date,
+            excluding terms that end with "AY".
+            </summary>
+            <returns>A list of active AcademicPeriod objects excluding "AY" terms.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AcademicPeriodService2.GetAllAcademicPeriodsAsync(System.Int32)">
+            <summary>
+            Retrieves all academic periods from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of academic periods to retrieve (default is 10).</param>
+            <returns>A list of AcademicPeriod objects.</returns>
+            
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AcademicPeriodService2.GetAcademicPeriodByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific academic period by its ID from the Ethos API.
+            </summary>
+            <param name="academicPeriodId">The ID of the academic period to retrieve.</param>
+            <returns>An AcademicPeriod object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AddressService.GetAllAddressesAsync(System.Int32)">
+            <summary>
+            Retrieves all addresses from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of addresses to retrieve (default is 10).</param>
+            <returns>A list of Address objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.AddressService.GetAddressByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific address by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the address to retrieve.</param>
+            <returns>An Address object.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.BuildingRoomService">
+            <summary>
+            Provides methods to interact with course sections in the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.BuildingRoomService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.BuildingRoomService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+            <remarks>
+            This class is responsible for retrieving building and room data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.BuildingRoomService.GetRoomByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific room by its ID from the Ethos API.
+            </summary>
+            <param name="roomId">The ID of the room to retrieve.</param>
+            <returns>A Room object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.BuildingRoomService.GetBuildingByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific building by its ID from the Ethos API.
+            </summary>
+            <param name="buildingId">The ID of the building to retrieve.</param>
+            <returns>A Building object.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.CourseSectionService">
+            <summary>
+            Provides methods to interact with course sections in the Ethos API.
+            </summary>
+            <remarks>
+            This class is responsible for retrieving course section data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.CourseSectionService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.CourseSectionService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+            <remarks>
+            This class is responsible for retrieving course section data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.CourseSectionService.GetSectionsAsync(System.Int32)">
+             <summary>
+             Retrieves a Section by its ID from the Ethos API.
+             </summary>
+             <param name="id">The ID of the Section to retrieve.</param>
+            <param name="limit">The maximum number of sites to retrieve (default is 10).</param>
+             <returns>A list of <see cref="T:OaklandCC.Ethos.Common.Models.Course"/> objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.DeptService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.SitesService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.DeptService.GetAllDeptsAsync(System.Int32)">
+            <summary>
+            Retrieves all sites from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of sites to retrieve (default is 10).</param>
+            <returns>A list of <see cref="T:OaklandCC.Ethos.Common.Models.SiteLocation"/> objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EducationalInstitutionUnitService.GetAllUnitsAsync(System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves all educational institution units with optional criteria.
+            </summary>
+            <param name="criteria">The criteria to filter the results (e.g., {"type":"department"}).</param>
+            <param name="limit">The maximum number of results to retrieve.</param>
+            <param name="offset">The starting index for the results.</param>
+            <returns>A list of EducationalInstitutionUnit objects.</returns>
+            
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EducationalInstitutionUnitService.GetUnitByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific educational institution unit by its ID.
+            </summary>
+            <param name="id">The unique identifier of the educational institution unit.</param>
+            <returns>An EducationalInstitutionUnit object.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.EmployeeService">
+            <summary>
+            Provides methods to interact with employees and contract types in the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.#ctor(OaklandCC.Ethos.Common.EthosClient,OaklandCC.Ethos.Common.Services.Logger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.EmployeeService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+            <param name="logger">The logger used for logging information.</param>
+            <remarks>
+            This class is responsible for retrieving employee and contract type data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetAllEmployeesAsync(System.Int32)">
+            <summary>
+            Retrieves all employees from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of employees to retrieve (default is 10).</param>
+            <returns>A list of Employee objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetActiveEmployeesAsync(System.Int32)">
+            <summary>
+            Retrieves active employees from the Ethos API.
+            </summary>
+            <param name="limit">The maximum number of active employees to retrieve (default is 10) if the getAllEmployees param is false.
+            Otherwise, it is the max page size.</param>
+            <param name="getAllEmployees">If true, retrieves all active employees without limit.</param>
+            <remarks>
+            This method retrieves active employees based on the status field in the Ethos API.
+            The default behavior is to limit the number of employees retrieved to 10.
+            If getAllEmployees is set to true, it retrieves all active employees without limit and the limit parameter is used as the max page size.
+            This is useful for paginated requests where you want to retrieve all active employees in a single call.
+            </remarks>
+            <returns>A list of active Employee objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetAllContractTypesAsync(System.Int32)">
+            <summary>
+            Retrieves all contract types from the Ethos API.
+            </summary>
+            <param name="limit">The maximum number of contract types to retrieve (default is 10).</param>
+            <returns>A list of contract type objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetAllEmploymentClassificationsAsync">
+            <summary>
+            Retrieves all employment classifications from the Ethos API.
+            </summary>
+            <returns>A list of EmploymentClassification objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetEmploymentClassificationByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific employment classification by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the employment classification to retrieve.</param>
+            <returns>An EmploymentClassification object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetAllInstitutionJobsAsync(System.Int32)">
+            <summary>
+            Retrieves all institution jobs from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of jobs to retrieve.</param>
+            <returns>A list of InstitutionJob objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetInstitutionJobByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific institution job by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the institution job to retrieve.</param>
+            <returns>An InstitutionJob object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetInstitutionJobsByPersonIdAsync(System.String)">
+            <summary>
+            Retrieves all institution jobs for a specific person from the Ethos API.
+            </summary>
+            <param name="personId">The ID of the person to retrieve jobs for.</param>
+            <returns>A list of InstitutionJob objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetActiveInstitutionJobsAsync(System.Int32)">
+            <summary>
+            Retrieves active institution jobs from the Ethos API.
+            </summary>
+            <param name="limit">The maximum number of jobs to retrieve.</param>
+            <returns>A list of InstitutionJob objects with active status.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetAllInstitutionPositionsAsync(System.Int32)">
+            <summary>
+            Retrieves all institution positions from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of positions to retrieve.</param>
+            <returns>A list of InstitutionPosition objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetInstitutionPositionByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific institution position by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the institution position to retrieve.</param>
+            <returns>An InstitutionPosition object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetActiveInstitutionPositionsAsync(System.Int32)">
+            <summary>
+            Retrieves active institution positions from the Ethos API.
+            </summary>
+            <param name="limit">The maximum number of positions to retrieve.</param>
+            <returns>A list of InstitutionPosition objects with active status.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetInstitutionPositionsByClassificationIdAsync(System.String,System.Int32)">
+            <summary>
+            Retrieves institution positions by classification ID from the Ethos API.
+            </summary>
+            <param name="classificationId">The ID of the classification to filter by.</param>
+            <param name="limit">The maximum number of positions to retrieve.</param>
+            <returns>A list of InstitutionPosition objects with the specified classification.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetAllPositionClassificationsAsync">
+            <summary>
+            Retrieves all position classifications from the Ethos API.
+            </summary>
+            <returns>A list of PositionClassification objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetPositionClassificationByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific position classification by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the position classification to retrieve.</param>
+            <returns>A PositionClassification object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.EmployeeService.GetEmployeeCategory(Microsoft.Extensions.Logging.ILogger,OaklandCC.Ethos.Common.Models.Employee,System.Collections.Generic.Dictionary{System.String,OaklandCC.Ethos.Common.Models.ContractType})">
+            <summary>
+            Retrieves employee category based on contract type.
+            </summary>
+            <param name="logger">The logger used for logging information.</param>
+            <param name="employee">The employee object to classify.</param>
+            <param name="contractTypesById">A dictionary of contract types indexed by ID.</param>
+            <returns>The employee category as a string.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.FacultyService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.FacultyService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+            <remarks>
+            This class is responsible for retrieving course section data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.FacultyService.GetInstructors(System.String,System.Int32)">
+             <summary>
+             Retrieves a Section by its ID from the Ethos API.
+             </summary>
+             <param name="sectionId">The ID of the Section to retrieve.</param>
+            <param name="limit">The maximum number of sites to retrieve (default is 10).</param>
+             <returns>A list of <see cref="T:OaklandCC.Ethos.Common.Models.Course"/> objects.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.GradeService">
+            <summary>
+            Service for managing and retrieving site-related data from the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.GradeService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.SitesService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.GradeService.GetAllGradeDefinitionsAsync(System.Int32)">
+            <summary>
+            Retrieves all sites from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of sites to retrieve (default is 10).</param>
+            <returns>A list of <see cref="T:OaklandCC.Ethos.Common.Models.GradeDefinitions"/> objects.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.InstructionalEventService">
+            <summary>
+            Provides methods to interact with instructional events in the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructionalEventService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.InstructionalEventService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+            <remarks>
+            This class is responsible for retrieving instructional event data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructionalEventService.GetInstructionalEventsBySectionIdAsync(System.String,System.Int32)">
+            <summary>
+            Retrieves a list of instructional events for a specific section ID.
+            </summary>
+            <param name="sectionId">The ID of the section to retrieve instructional events for.</param>
+            <param name="limit">The maximum number of instructional events to retrieve (default is 10).</param>
+            <returns>A list of InstructionalEvent objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructionalMethodService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.InstructionalMethodService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructionalMethodService.GetAllMethodsAsync(System.Int32)">
+            <summary>
+            Retrieves all sites from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of sites to retrieve (default is 10).</param>
+            <returns>A list of <see cref="T:OaklandCC.Ethos.Common.Models.InstructionalMethods"/> objects.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.InstructorService">
+            <summary>
+            Provides methods to interact with instructors in the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.InstructorService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.GetAllInstructorsAsync(System.Int32)">
+            <summary>
+            Retrieves all instructors from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of instructors to retrieve (default is 10).</param>
+            <returns>A list of Instructor objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.GetInstructorsByPersonIdAsync(System.String)">
+            <summary>
+            Retrieves all instructors associated with a specific person ID from the Ethos API.
+            </summary>
+            <param name="personId">The ID of the person to retrieve instructors for.</param>
+            <returns>A list of Instructor objects associated with the specified person ID.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.GetAllInstructorTenureTypesAsync">
+            <summary>
+            Retrieves all instructor tenure types from the Ethos API.
+            </summary>
+            <returns>A list of InstructorTenureType objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.GetInstructorTenureTypeByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific instructor tenure type by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the instructor tenure type to retrieve.</param>
+            <returns>An InstructorTenureType object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.GetAllInstructorStaffTypesAsync">
+            <summary>
+            Retrieves all instructor staff types from the Ethos API.
+            </summary>
+            <returns>A list of InstructorStaffType objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.GetInstructorStaffTypeByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific instructor staff type by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the instructor staff type to retrieve.</param>
+            <returns>An InstructorStaffType object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.GetAllBargainingUnitsAsync">
+            <summary>
+            Retrieves all bargaining units from the Ethos API.
+            </summary>
+            <returns>A list of BargainingUnit objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.InstructorService.GetBargainingUnitByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific bargaining unit by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the bargaining unit to retrieve.</param>
+            <returns>A BargainingUnit object.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.Logger">
+            <summary>
+            Logger class for logging messages to a file in JSON format.
+            Implements ILogger interface for compatibility with Microsoft.Extensions.Logging.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.Logger.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.Logger"/> class.
+            </summary>
+            <param name="configuration">The configuration object used to retrieve settings.</param>
+            <remarks>
+            This constructor initializes the logger with the specified configuration.
+            It resolves the log directory path and ensures that the directory exists.
+            </remarks>
+            <example>
+            // Example usage: var logger = new Logger(configuration);
+            </example>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.Logger.LogError(OaklandCC.Ethos.Common.Models.ErrorMessage)">
+            <summary>
+            Logs an error message to the log file.
+            </summary>
+            <param name="error">The error message to log.</param>
+            <remarks>
+            This method serializes the error message into JSON format and writes it to the log file.
+            It uses the default log entry type (Error) to categorize the log entry.
+            </remarks>
+            <example>
+            // Example usage: logger.LogError(new ErrorMessage { Message = "An error occurred." });
+            </example>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.Logger.LogError(OaklandCC.Ethos.Common.Models.ErrorMessage,OaklandCC.Ethos.Common.Services.LogEntryType)">
+            <summary>
+            Logs an error message to the log file.
+            </summary>
+            <param name="error">The error message to log.</param>
+            <param name="entryType">The type of log entry (e.g., Info, Warning, Error, Debug).</param>
+            <remarks>
+            This method serializes the error message into JSON format and writes it to the log file.
+            It uses the specified log entry type to determine how to categorize the log entry.
+            </remarks>
+            <example>
+            // Example usage: logger.LogError(new ErrorMessage { Message = "An error occurred." }, LogEntryType.Error);
+            </example>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.Logger.LogString(System.String,OaklandCC.Ethos.Common.Services.LogEntryType)">
+            <summary>
+            Logs a simple string message to the log file.
+            </summary>
+            <param name="message">The message to log.</param>
+            <param name="type">The type of log entry (e.g., Info, Warning, Error, Debug).</param>
+            <remarks>
+            This method serializes the message into JSON format and writes it to the log file.
+            It uses the specified log entry type to determine how to categorize the log entry.
+            </remarks>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.LogEntry">
+            <summary>
+            Base class for Log Entries
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Services.LogEntry.Timestamp">
+            <summary>
+            The timestamp of the log entry.
+            This property is used to store the date and time when the log entry was created.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Services.LogEntry.Type">
+            <summary>
+            The type of the log entry.
+            This property is used to store the type of log entry (e.g., Info, Warning, Error, Debug).
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.LogEntry.#ctor">
+            <summary>
+            Default constructor for the LogEntry class.
+            Initializes a new instance of the LogEntry class with the current timestamp and an empty type.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.LogEntry.#ctor(OaklandCC.Ethos.Common.Services.LogEntryType)">
+            <summary>
+            Initializes a new instance of the LogEntry class with the specified type.
+            </summary>
+            <param name="type">The type of the log entry.</param>
+            <remarks>
+            This constructor is used to create a log entry with a specific type.
+            It sets the Timestamp property to the current date and time.
+            </remarks>
+            <example>
+            // Example usage: var logEntry = new LogEntry(LogEntryType.Info);
+            </example>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.ErrorLogEntry">
+            <summary>
+            Derived class used to log ErrorMessage objects
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Services.ErrorLogEntry.Body">
+            <summary>
+            The body of the log entry.
+            This property is used to store the ErrorMessage object associated with the log entry.
+            </summary>
+            <remarks>
+            This property is used to store the ErrorMessage object associated with the log entry.
+            It contains details about the error that occurred.
+            </remarks>
+            <example>
+            // Example usage: var errorLogEntry = new ErrorLogEntry(new ErrorMessage { Message = "An error occurred." });
+            </example>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.ErrorLogEntry.#ctor(OaklandCC.Ethos.Common.Models.ErrorMessage)">
+            <summary>
+            Default constructor for the ErrorLogEntry class.
+            Initializes a new instance of the ErrorLogEntry class with an empty body.
+            </summary>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.StringLogEntry">
+            <summary>
+            Derived class used to add simple strings to the log.
+            </summary>
+        </member>
+        <member name="P:OaklandCC.Ethos.Common.Services.StringLogEntry.Body">
+            <summary>
+            The body of the log entry.
+            This property is used to store the message or content of the log entry.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StringLogEntry.#ctor">
+            <summary>
+            Default constructor for the StringLogEntry class.
+            Initializes a new instance of the StringLogEntry class with an empty body.
+            </summary>
+            <remarks>
+            This constructor is used to create a log entry without any specific message.
+            It sets the Body property to an empty string.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StringLogEntry.#ctor(System.String,OaklandCC.Ethos.Common.Services.LogEntryType)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.StringLogEntry"/> class with the specified body and type.
+            </summary>
+            <param name="body"></param>
+            <param name="type"></param>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.LogEntryType">
+            <summary>
+            Enumeration representing different types of log entries.
+            </summary>
+        </member>
+        <member name="F:OaklandCC.Ethos.Common.Services.LogEntryType.Info">
+            <summary>
+            Represents an informational log entry.
+            </summary>
+        </member>
+        <member name="F:OaklandCC.Ethos.Common.Services.LogEntryType.Warning">
+            <summary>
+            Represents a warning log entry.
+            </summary>
+        </member>
+        <member name="F:OaklandCC.Ethos.Common.Services.LogEntryType.Error">
+            <summary>
+            Represents an error log entry.
+            </summary>
+        </member>
+        <member name="F:OaklandCC.Ethos.Common.Services.LogEntryType.Debug">
+            <summary>
+            Represents a debug log entry.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.MiscService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.MiscService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.MiscService.GetAllTextAsync(System.Int32)">
+            <summary>
+            Retrieves all sites from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of sites to retrieve (default is 10).</param>
+            <returns>A list of <see cref="T:OaklandCC.Ethos.Common.Models.MiscText"/> objects.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.OrganizationService">
+            <summary>
+            Provides methods to interact with organizations in the Ethos API.
+            </summary>
+            <remarks>
+            This class is responsible for retrieving organization data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.OrganizationService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.OrganizationService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.OrganizationService.GetAllOrganizationsAsync(System.Int32)">
+            <summary>
+            Retrieves all organizations from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of organizations to retrieve (default is 10).</param>
+            <returns>A list of Organization objects.</returns>
+            <remarks>
+            This method fetches all organizations from the Ethos API.
+            </remarks>
+            <exception cref="T:System.Exception">Throws an exception if the API call fails.</exception>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.OrganizationService.GetOrganizationByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific organization by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the organization to retrieve.</param>
+            <returns>An Organization object.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.PersonService">
+            <summary>
+            Provides methods to interact with persons in the Ethos API.
+            </summary>
+            <remarks>
+            This class is responsible for retrieving person data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.PersonService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.PersonService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+            <remarks>
+            This class is responsible for retrieving person data from the Ethos API.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.PersonService.GetAllPersonsAsync(System.Int32)">
+            <summary>
+            Retrieves all persons from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of persons to retrieve (default is 10).</param>
+            <returns>A list of Person objects.</returns>
+            <remarks>
+            This method fetches all persons from the Ethos API.
+            </remarks>
+            <exception cref="T:System.Exception">Throws an exception if the API call fails.</exception>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.PersonService.GetPagedPersonsAsync(System.Int32,System.Int32)">
+            <summary>
+            Retrieves a paged list of persons from the Ethos API.
+            </summary>
+            <param name="offset">The number of persons to skip before starting to collect the result set.</param>
+            <param name="limit">The maximum number of persons to retrieve.</param>
+            <returns>A list of Person objects.</returns>
+            <exception cref="T:System.Exception">Throws an exception if the API call fails.</exception>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.PersonService.GetPersonByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific person by their ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the person to retrieve.</param>
+            <returns>A Person object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.PersonService.GetPersonsByIdsAsync(System.Collections.Generic.List{System.String})">
+            <summary>
+            Retrieves a list of persons by their IDs from the Ethos API using a batch request.
+            </summary>
+            <param name="personIds">A list of person IDs to retrieve.</param>
+            <returns>A list of Person objects corresponding to the provided IDs.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.PersonService.GetAllEmailTypesAsync(System.Int32)">
+            <summary>
+            Retrieves all email types from the Ethos API.
+            </summary>
+            <param name="limit">The maximum number of email types to retrieve (default is 100).</param>
+            <returns>A list of EmailType objects.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.SectionInstructorService">
+            <summary>
+            Provides methods to interact with section instructors in the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SectionInstructorService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.SectionInstructorService"/> class.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SectionInstructorService.GetSectionInstructorsBySectionIdAsync(System.String,System.Int32)">
+            <summary>
+            Retrieves a list of section instructors for a specific section ID.
+            </summary>
+            <param name="sectionId">The ID of the section to retrieve instructors for.</param>
+            <param name="limit">The maximum number of section instructors to retrieve (default is 10).</param>
+            <returns>A list of SectionInstructor objects.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.SectionRegistrationService">
+            <summary>
+            Provides methods to interact with section registrations in the Ethos API.
+            </summary>
+            <remarks>
+            This class is responsible for retrieving section registrations based on academic periods.
+            It uses the EthosClient to make API calls and fetch data.
+            </remarks>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SectionRegistrationService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.SectionRegistrationService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SectionRegistrationService.GetAllSectionRegistrationsByAcademicPeriodIdAsync(System.String,System.Int32)">
+            <summary>
+            Retrieves section registrations for a specific academic period by its ID.
+            </summary>
+            <param name="academicPeriodId">The ID of the academic period to retrieve section registrations for.</param>
+            <param name="limit">The maximum number of section registrations to retrieve (default is 10).</param>
+            <returns>A list of SectionRegistration objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SectionRegistrationService.GetLimitedSectionRegistrationsByAcademicPeriodIdAsync(System.String,System.Int32)">
+            <summary>
+            Retrieves a limited number of section registrations for a specific academic period by its ID.
+            </summary>
+            <param name="academicPeriodId">The ID of the academic period to retrieve section registrations for.</param>
+            <param name="limit">The maximum number of section registrations to retrieve.</param>
+            <returns>A list of SectionRegistration objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SectionRegistrationService.GetSectionRegistrationsByAcademicPeriodIdAsync(System.String,System.Boolean,System.Int32)">
+            <summary>
+            Retrieves section registrations for a specific academic period by its ID, with an option to get all or a limited number.
+            </summary>
+            <param name="academicPeriodId">The ID of the academic period to retrieve section registrations for.</param>
+            <param name="getAll">A boolean indicating whether to retrieve all section registrations or limit the results.</param>
+            <param name="limit">The maximum number of section registrations to retrieve if getAll is false (default is 10).</param>
+            <returns>A list of SectionRegistration objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SectionRegistrationService.GetSectionRegistrationsByPersonIdAsync(System.String,System.Boolean,System.Int32)">
+            <summary>
+            Retrieves section registrations for a specific person by their ID, with an option to get all or a limited number.
+            </summary>
+            <param name="personId">The ID of the person to retrieve section registrations for.</param>
+            <param name="getAll">A boolean indicating whether to retrieve all section registrations or limit the results.</param>
+            <param name="limit">The maximum number of section registrations to retrieve if getAll is false (default is 10).</param>
+            <returns>A list of SectionRegistration objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SectionRegistrationService.GetAllSectionRegistrationStatusesAsync(System.Int32)">
+            <summary>
+            Retrieves all section registration statuses.
+            </summary>
+            <param name="limit">The maximum number of section registration statuses to retrieve (default is 10).</param>
+            <returns>A list of SectionRegistrationStatus objects.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.SitesService">
+            <summary>
+            Service for managing and retrieving site-related data from the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SitesService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.SitesService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SitesService.GetAllSitesAsync(System.Int32)">
+            <summary>
+            Retrieves all sites from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of sites to retrieve (default is 10).</param>
+            <returns>A list of <see cref="T:OaklandCC.Ethos.Common.Models.SiteLocation"/> objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SitesService.GetSiteByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific site by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the site to retrieve.</param>
+            <returns>A Site object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SitesService.InitializeCampusCodeMapAsync(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Builds and caches the campus code mapping from the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SitesService.GetCampusCodeAsync(OaklandCC.Ethos.Common.EthosClient,System.String)">
+            <summary>
+            Retrieves the campus code for a given site ID. Initializes the cache if not already done.
+            </summary>
+            <param name="siteId">The ID of the site.</param>
+            <returns>The campus code for the given site ID, or null if not found.</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService">
+            <summary>
+            Provides methods to interact with student academic periods in the Ethos API.
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService.#ctor(OaklandCC.Ethos.Common.EthosClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService.GetAllStudentAcademicPeriodsAsync(System.Int32)">
+            <summary>
+            Retrieves all student academic periods from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of student academic periods to retrieve (default is 10).</param>
+            <returns>A list of StudentAcademicPeriod objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService.GetStudentAcademicPeriodByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific student academic period by its ID from the Ethos API.
+            </summary>
+            <param name="id">The ID of the student academic period to retrieve.</param>
+            <returns>A StudentAcademicPeriod object.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService.GetStudentAcademicPeriodsByPersonIdAsync(System.String)">
+            <summary>
+            Retrieves student academic periods for a specific person by their person ID.
+            </summary>
+            <param name="personId">The ID of the person to retrieve student academic periods for.</param>
+            <returns>A list of StudentAcademicPeriod objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService.GetStudentAcademicPeriodsByAcademicPeriodIdAsync(System.String,System.Int32,System.Boolean)">
+            <summary>
+            Retrieves student academic periods for a specific academic period by its ID.
+            </summary>
+            <param name="academicPeriodId">The ID of the academic period to retrieve student academic periods for.</param>
+            <param name="limit">The maximum page size of student academic periods to retrieve (default is 10).</param>
+            <param name="getAll">Whether to retrieve all records or just a limited number (default is false).</param>
+            <remarks>
+            This method retrieves student academic periods for a specific academic period.
+            If getAll is true, it retrieves all records with pagination set to the limit passed in as a parameter.
+            </remarks>
+            <returns>A list of StudentAcademicPeriod objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService.GetAllStudentAcademicPeriodStatusesAsync(System.Int32)">
+            <summary>
+            Retrieves all student academic period statuses from the Ethos API with an optional limit.
+            </summary>
+            <param name="limit">The maximum number of student academic period statuses to retrieve (default is 0).</param>
+            <returns>A list of StudentAcademicPeriodStatus objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicPeriodService.GetStudentAcademicPeriodsByAcademicPeriodsAsync(System.Collections.Generic.List{System.String})">
+            <summary>
+            Retrieves all student academic periods for a list of academic period IDs
+            </summary>
+            <param name="academicPeriodIds">List of academic period IDs to retrieve student data for</param>
+            <returns>A list of StudentAcademicPeriod objects for the specified academic periods</returns>
+        </member>
+        <member name="T:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService">
+            <summary>
+            Service for interacting with the Ethos API's student-academic-programs endpoint
+            </summary>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetAllStudentAcademicProgramsAsync(System.Int32)">
+            <summary>
+            Retrieves all student academic programs with an optional limit
+            </summary>
+            <param name="limit">Maximum number of records to retrieve</param>
+            <returns>A list of StudentAcademicProgram objects</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetAllCurrentStudentAcademicProgramsAsync(System.DateTime,System.Int32)">
+            <summary>
+            Retrieves all active student academic programs that haven't ended
+            </summary>
+            <param name="currentDate">The current date to compare with end dates</param>
+            <param name="limit">Maximum number of records to retrieve (default is 500)</param>
+            <returns>A list of all active StudentAcademicProgram objects</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetStudentAcademicProgramsByStudentIdAsync(System.String)">
+            <summary>
+            Retrieves student academic programs for a specific student
+            </summary>
+            <param name="studentId">The ID of the student</param>
+            <returns>A list of StudentAcademicProgram objects for the specified student</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetActiveStudentAcademicProgramsByStudentIdAsync(System.String)">
+            <summary>
+            Retrieves active student academic programs for a specific student
+            </summary>
+            <param name="studentId">The ID of the student</param>
+            <returns>A list of active StudentAcademicProgram objects for the specified student</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetStudentAcademicProgramByIdAsync(System.String)">
+            <summary>
+            Retrieves a specific student academic program by its ID
+            </summary>
+            <param name="id">The ID of the student academic program</param>
+            <returns>A StudentAcademicProgram object</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetStudentHomeCampusAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Gets the home campus code for a student based on their academic programs
+            </summary>
+            <param name="studentId">The ID of the student</param>
+            <param name="campusCodeMap">Dictionary mapping site IDs to campus codes</param>
+            <returns>The student's home campus code or empty string if not found</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetActiveNonExpiredProgramsByStudentIdAsync(System.String)">
+            <summary>
+            Gets the home campus code for a student based on provided academic programs
+            </summary>
+            <param name="programs">List of the student's academic programs</param>
+            <param name="campusCodeMap">Dictionary mapping site IDs to campus codes</param>
+            <returns>The student's home campus code or empty string if not found</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetAllActiveNonExpiredStudentProgramsAsync(System.Nullable{System.DateTime},System.Int32,System.Boolean)">
+            <summary>
+            Retrieves all active non-expired student academic programs that haven't ended
+            This serves as the main data source for the student extract process
+            </summary>
+            <param name="currentDate">The reference date to compare with endOn dates (default is current date)</param>
+            <param name="limit">Maximum number of records to retrieve per page (default is 500)</param>
+            <returns>A list of all active non-expired StudentAcademicProgram objects</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentAcademicProgramService.GetStudentHomeCampusFromPrograms(System.Collections.Generic.List{OaklandCC.Ethos.Common.Models.StudentAcademicProgram},System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Gets the home campus code from student academic programs
+            </summary>
+            <remarks>
+            This is a best attempt at replicating the functionality of the legacy
+            subroutine S.GET.STU.HOME.LOCATION. Without visibility into the exact
+            implementation of that subroutine, this method uses the site/campus 
+            information from the student's academic programs as a reasonable approximation.
+            The legacy process may have used additional institution-specific logic
+            that is not replicated here.
+            </remarks>
+            <param name="programs">List of the student's academic programs</param>
+            <param name="campusCodeMap">Dictionary mapping site IDs to campus codes</param>
+            <returns>The student's home campus code or empty string if not found</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentService.GetActiveStudentsAsync(System.Int32)">
+            <summary>
+            Retrieves all active students from the Ethos API.
+            </summary>
+            <param name="limit">The maximum number of students to retrieve (default is 100).</param>
+            <returns>A list of Student objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentService.GetStudentsByAcademicPeriodAsync(System.String,System.Int32)">
+            <summary>
+            Retrieves students for a specific academic period by using StudentAcademicPeriod as an intermediary.
+            </summary>
+            <param name="academicPeriodId">The ID of the academic period.</param>
+            <param name="limit">The maximum number of students to retrieve.</param>
+            <returns>A list of Student objects enrolled in the specified academic period.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentService.GetStudentSectionRegistrationsAsync(System.String,System.String)">
+            <summary>
+            Retrieves section registrations for a specific student and academic period.
+            </summary>
+            <param name="studentId">The ID of the student/registrant.</param>
+            <param name="academicPeriodId">The ID of the academic period.</param>
+            <returns>A list of SectionRegistration objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentService.GetAllSectionRegistrationsForAcademicPeriodAsync(System.String)">
+            <summary>
+            Retrieves all section registrations for a specific academic period.
+            </summary>
+            <param name="academicPeriodId">The ID of the academic period.</param>
+            <returns>A list of SectionRegistration objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentService.GetSectionRegistrationsForMultipleAcademicPeriodsAsync(System.Collections.Generic.List{System.String})">
+            <summary>
+            Retrieves section registrations for multiple academic periods.
+            </summary>
+            <param name="academicPeriodIds">List of academic period IDs.</param>
+            <returns>A dictionary mapping academic period IDs to a dictionary of student IDs to their registrations.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.StudentService.GetStudentByPersonId(System.String,System.Int32)">
+            <summary>
+            Retrieves a limited number of section registrations for a specific academic period by its ID.
+            </summary>
+            <param name="personId">The ID of the academic period to retrieve section registrations for.</param>
+            <param name="limit">The maximum number of section registrations to retrieve.</param>
+            <returns>A list of SectionRegistration objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SubjectService.#ctor(OaklandCC.Ethos.Common.EthosClient,OaklandCC.Ethos.Common.Services.Logger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OaklandCC.Ethos.Common.Services.SitesService"/> class.
+            </summary>
+            <param name="ethosClient">The Ethos client used for API interactions.</param>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Services.SubjectService.GetSubjectByIdAsync(System.String)">
+            <summary>
+            Retrieves all sites from the Ethos API with an optional limit.
+            </summary>
+            <param name="subjectId">The maximum number of sites to retrieve (default is 10).</param>
+            <returns>A list of <see cref="T:OaklandCC.Ethos.Common.Services.SubjectService"/> objects.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Utilities.StringUtilities.SafeSubstring(System.String,System.Int32,System.Int32)">
+            <summary>
+            Safely retrieves a substring from a string, ensuring no exceptions are thrown.
+            </summary>
+            <param name="input">The input string.</param>
+            <param name="startIndex">The starting index of the substring.</param>
+            <param name="length">The length of the substring.</param>
+            <returns>The substring, or an empty string if the operation fails.</returns>
+        </member>
+        <member name="M:OaklandCC.Ethos.Common.Utilities.StringUtilities.EscapeCsvField(System.String)">
+            <summary>
+            Escapes a field for CSV output by wrapping it in quotes and doubling any internal quotes.
+            </summary>
+            <param name="field">The field to escape.</param>
+            <returns>The escaped field.</returns>
+            <remarks>
+            This method checks if the field contains a comma, quote, or newline.
+            If it does, it wraps the field in quotes and doubles any internal quotes.
+            If the field is null or empty, it returns an empty string.
+            </remarks>
+            <exception cref="!:ArgumentNullException">Thrown if the field is null.</exception>
+            <exception cref="!:ArgumentException">Thrown if the field is empty.</exception>
+            <example>
+            <code>
+            string escapedField = StringUtilities.EscapeCsvField("Hello, \"World\"");
+            // escapedField will be "Hello, ""World"""
+            </code>
+            </example>
+        </member>
+    </members>
+</doc>

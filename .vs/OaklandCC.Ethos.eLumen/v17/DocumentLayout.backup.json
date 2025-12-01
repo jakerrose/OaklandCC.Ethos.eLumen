@@ -1,0 +1,769 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\initservice2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\initservice2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\initservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\initservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\peopleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\peopleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\offeringsecattrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\offeringsecattrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\offeringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\offeringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\facassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\facassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\combine4services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\combine4services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\orgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\orgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\elumencourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\elumencourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\demographicelementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\demographicelementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\demographiccategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\demographiccategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\coutypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\coutypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\campusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\campusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\services\\secattrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:services\\secattrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|c:\\users\\jacobrose\\onedrive - doctums global\\documents\\repos\\oaklandcc-csharp-_repo - copy\\oaklandcc.ethos.elumen\\oaklandcc.ethos.elumen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C3387B8A-7C65-BCC8-7213-09FE94C97013}|OaklandCC.Ethos.eLumen.csproj|solutionrelative:oaklandcc.ethos.elumen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\AppData\\Local\\SourceServer\\74ffde84605ee43cbb5338763f865b365cae7f024c2ade121dacde14587a2b9a\\OaklandCC.Ethos.eLumen\\Services\\OfferingSecattrService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\AppData\\Local\\SourceServer\\01baf7d1a75cf5f511d14ded7486948d2eac77916d0887a528527695c27d8fc9\\OaklandCC.Ethos.eLumen\\Services\\EnrollmentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EducationalInstitutionUnit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\AcademicPeriod2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\ExcludedIds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EmployeeCustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\EthosClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\CourseSectionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\GradeDefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentUnverifiedGrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\TermOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonColleagueId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\GradeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonTechId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\TechIds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\UserInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\PersonService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\FacultyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\InstructionalEventById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructionalEventService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\EmployeeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentTranscriptGrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\CourseById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\SectionRegistrationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 46,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EducationalInstitutionUnit.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EducationalInstitutionUnit.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EducationalInstitutionUnit.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EducationalInstitutionUnit.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EducationalInstitutionUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T17:07:53.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AcademicPeriod2.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\AcademicPeriod2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\AcademicPeriod2.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\AcademicPeriod2.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\AcademicPeriod2.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADgvyQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T17:07:05.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ExcludedIds.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\ExcludedIds.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\ExcludedIds.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\ExcludedIds.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\ExcludedIds.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwFIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T16:29:38.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmployeeCustom.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EmployeeCustom.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EmployeeCustom.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EmployeeCustom.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\EmployeeCustom.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwCEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T19:36:19.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Employee.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T19:34:58.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EthosClient.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\EthosClient.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\EthosClient.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\EthosClient.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\EthosClient.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAnwPUAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T19:32:42.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CourseSectionService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\CourseSectionService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\CourseSectionService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\CourseSectionService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\CourseSectionService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAEwF8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:47:38.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InstructorService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructorService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructorService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructorService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructorService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAvwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:56:23.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GradeDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\GradeDefinitions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\GradeDefinitions.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\GradeDefinitions.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\GradeDefinitions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T21:20:41.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StudentUnverifiedGrades.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentUnverifiedGrades.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentUnverifiedGrades.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentUnverifiedGrades.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentUnverifiedGrades.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T21:18:06.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TermOptions.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\TermOptions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\TermOptions.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\TermOptions.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\TermOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T20:13:32.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OaklandCC.Ethos.eLumen.csproj",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\OaklandCC.Ethos.eLumen.csproj",
+              "RelativeDocumentMoniker": "OaklandCC.Ethos.eLumen.csproj",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\OaklandCC.Ethos.eLumen.csproj",
+              "RelativeToolTip": "OaklandCC.Ethos.eLumen.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-18T19:01:39.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PersonColleagueId.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonColleagueId.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonColleagueId.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonColleagueId.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonColleagueId.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAApwHoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T18:17:51.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GradeService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\GradeService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\GradeService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\GradeService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\GradeService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAEwCIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T17:41:14.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PersonTechId.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonTechId.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonTechId.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonTechId.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\PersonTechId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:17:46.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TechIds.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\TechIds.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\TechIds.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\TechIds.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\TechIds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:17:23.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Person.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\Person.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:52:52.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserInput.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\UserInput.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\UserInput.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\UserInput.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\UserInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:20:08.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InitService2.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\InitService2.cs",
+              "RelativeDocumentMoniker": "Services\\InitService2.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\InitService2.cs*",
+              "RelativeToolTip": "Services\\InitService2.cs*",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAAOEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T20:52:42.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SecattrService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\SecattrService.cs",
+              "RelativeDocumentMoniker": "Services\\SecattrService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\SecattrService.cs",
+              "RelativeToolTip": "Services\\SecattrService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAvwC8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:12:07.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DemographicElementService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\DemographicElementService.cs",
+              "RelativeDocumentMoniker": "Services\\DemographicElementService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\DemographicElementService.cs",
+              "RelativeToolTip": "Services\\DemographicElementService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAEwFoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:03:05.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CampusService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\CampusService.cs",
+              "RelativeDocumentMoniker": "Services\\CampusService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\CampusService.cs",
+              "RelativeToolTip": "Services\\CampusService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAEwE8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T18:51:23.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CalendarService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\CalendarService.cs",
+              "RelativeDocumentMoniker": "Services\\CalendarService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\CalendarService.cs",
+              "RelativeToolTip": "Services\\CalendarService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAEwEEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T21:42:51.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PersonService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\PersonService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\PersonService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\PersonService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\PersonService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAawEMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T21:42:51.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrgService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\OrgService.cs",
+              "RelativeDocumentMoniker": "Services\\OrgService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\OrgService.cs",
+              "RelativeToolTip": "Services\\OrgService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAEwIwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T21:42:51.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CouTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\CouTypeService.cs",
+              "RelativeDocumentMoniker": "Services\\CouTypeService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\CouTypeService.cs",
+              "RelativeToolTip": "Services\\CouTypeService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAEwDIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T21:42:51.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FacultyService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\FacultyService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\FacultyService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\FacultyService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\FacultyService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T21:42:51.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DemographicCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\DemographicCategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\DemographicCategoryService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\DemographicCategoryService.cs",
+              "RelativeToolTip": "Services\\DemographicCategoryService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAEwDgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T21:42:51.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "InstructionalEventById.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\InstructionalEventById.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\InstructionalEventById.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\InstructionalEventById.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\InstructionalEventById.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwvzYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T17:38:18.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InstructionalEventService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructionalEventService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructionalEventService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructionalEventService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\InstructionalEventService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T19:19:08.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OfferingSecattrService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\AppData\\Local\\SourceServer\\74ffde84605ee43cbb5338763f865b365cae7f024c2ade121dacde14587a2b9a\\OaklandCC.Ethos.eLumen\\Services\\OfferingSecattrService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\74ffde84605ee43cbb5338763f865b365cae7f024c2ade121dacde14587a2b9a\\OaklandCC.Ethos.eLumen\\Services\\OfferingSecattrService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\AppData\\Local\\SourceServer\\74ffde84605ee43cbb5338763f865b365cae7f024c2ade121dacde14587a2b9a\\OaklandCC.Ethos.eLumen\\Services\\OfferingSecattrService.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\74ffde84605ee43cbb5338763f865b365cae7f024c2ade121dacde14587a2b9a\\OaklandCC.Ethos.eLumen\\Services\\OfferingSecattrService.cs [Read Only]",
+              "ViewState": "AgIAAFQAAAAAAAAAAIAwwGQAAAAvAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:54:29.422Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAnwDAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T00:04:28.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FacAssService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\FacAssService.cs",
+              "RelativeDocumentMoniker": "Services\\FacAssService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\FacAssService.cs",
+              "RelativeToolTip": "Services\\FacAssService.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAawFUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:52:07.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ElumenCourseService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\ElumenCourseService.cs",
+              "RelativeDocumentMoniker": "Services\\ElumenCourseService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\ElumenCourseService.cs",
+              "RelativeToolTip": "Services\\ElumenCourseService.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAEwDUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:52:08.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OfferingSecattrService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\OfferingSecattrService.cs",
+              "RelativeDocumentMoniker": "Services\\OfferingSecattrService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\OfferingSecattrService.cs",
+              "RelativeToolTip": "Services\\OfferingSecattrService.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAawGUBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:52:08.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StudentTranscriptGrades.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentTranscriptGrades.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentTranscriptGrades.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentTranscriptGrades.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\StudentTranscriptGrades.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwBMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T21:03:01.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PeopleService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\PeopleService.cs",
+              "RelativeDocumentMoniker": "Services\\PeopleService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\PeopleService.cs",
+              "RelativeToolTip": "Services\\PeopleService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:46:05.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CourseById.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\CourseById.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\CourseById.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\CourseById.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Models\\CourseById.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T21:04:09.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SectionRegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\SectionRegistrationService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\SectionRegistrationService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\SectionRegistrationService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.Common\\Services\\SectionRegistrationService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:46:05.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EnrollmentService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\AppData\\Local\\SourceServer\\01baf7d1a75cf5f511d14ded7486948d2eac77916d0887a528527695c27d8fc9\\OaklandCC.Ethos.eLumen\\Services\\EnrollmentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\01baf7d1a75cf5f511d14ded7486948d2eac77916d0887a528527695c27d8fc9\\OaklandCC.Ethos.eLumen\\Services\\EnrollmentService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\AppData\\Local\\SourceServer\\01baf7d1a75cf5f511d14ded7486948d2eac77916d0887a528527695c27d8fc9\\OaklandCC.Ethos.eLumen\\Services\\EnrollmentService.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\01baf7d1a75cf5f511d14ded7486948d2eac77916d0887a528527695c27d8fc9\\OaklandCC.Ethos.eLumen\\Services\\EnrollmentService.cs [Read Only]",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowGAAAAANAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:48:00.148Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Application.cs",
+              "RelativeDocumentMoniker": "Application.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Application.cs",
+              "RelativeToolTip": "Application.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCYAAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:45:09.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T20:45:06.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:44:50.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnrollmentService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\EnrollmentService.cs",
+              "RelativeDocumentMoniker": "Services\\EnrollmentService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\EnrollmentService.cs",
+              "RelativeToolTip": "Services\\EnrollmentService.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAvwOcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:38:52.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Combine4Services.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\Combine4Services.cs",
+              "RelativeDocumentMoniker": "Services\\Combine4Services.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\Combine4Services.cs",
+              "RelativeToolTip": "Services\\Combine4Services.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwLwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:38:29.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InitService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\InitService.cs",
+              "RelativeDocumentMoniker": "Services\\InitService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\InitService.cs*",
+              "RelativeToolTip": "Services\\InitService.cs*",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:30:49.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OfferingService.cs",
+              "DocumentMoniker": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\OfferingService.cs",
+              "RelativeDocumentMoniker": "Services\\OfferingService.cs",
+              "ToolTip": "C:\\Users\\JacobRose\\OneDrive - Doctums Global\\Documents\\repos\\OaklandCC-Csharp-_repo - Copy\\OaklandCC.Ethos.eLumen\\Services\\OfferingService.cs",
+              "RelativeToolTip": "Services\\OfferingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:36:21.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Release\net8.0\win-x64\publish\OaklandCC.Ethos.eLumen.pdb
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Release\net8.0\win-x64\publish\appsettings.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Release\net8.0\win-x64\publish\OaklandCC.Ethos.Common.pdb
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Release\net8.0\win-x64\publish\OaklandCC.Ethos.Common.xml
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Release\net8.0\win-x64\publish\OaklandCC.Ethos.eLumen.exe

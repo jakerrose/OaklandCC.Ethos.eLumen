@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OaklandCC.Ethos.eLumen": {
+      "commandName": "Project",
+      "commandLineArgs": "2023/FA"
+    }
+  }
+}

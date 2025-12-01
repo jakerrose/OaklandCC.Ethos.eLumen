@@ -1,0 +1,290 @@
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\appsettings.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.exe
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.deps.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.runtimeconfig.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.pdb
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.xml
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.DirectoryServices.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.pdb
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.xml
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.csproj.AssemblyReference.cache
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.AssemblyInfoInputs.cache
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.AssemblyInfo.cs
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.csproj.CoreCompileInputs.cache
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.sourcelink.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandC.15F70199.Up2Date
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\refint\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.xml
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.pdb
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.genruntimeconfig.cache
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\ref\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\appsettings.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.exe
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.deps.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.runtimeconfig.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.pdb
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.DirectoryServices.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.pdb
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.xml
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.csproj.AssemblyReference.cache
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.AssemblyInfoInputs.cache
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.AssemblyInfo.cs
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.csproj.CoreCompileInputs.cache
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.sourcelink.json
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandC.15F70199.Up2Date
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\refint\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.pdb
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.genruntimeconfig.cache
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\ref\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\appsettings.json
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.exe
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.deps.json
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.runtimeconfig.json
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.eLumen.pdb
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.DirectoryServices.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.pdb
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\bin\Debug\net8.0\OaklandCC.Ethos.Common.xml
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.csproj.AssemblyReference.cache
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.AssemblyInfoInputs.cache
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.AssemblyInfo.cs
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.csproj.CoreCompileInputs.cache
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.sourcelink.json
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandC.15F70199.Up2Date
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\refint\OaklandCC.Ethos.eLumen.dll
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.pdb
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\OaklandCC.Ethos.eLumen.genruntimeconfig.cache
+C:\Users\JacobRose\OneDrive - Doctums Global\Documents\repos\OaklandCC-Csharp-_repo - Copy\OaklandCC.Ethos.eLumen\obj\Debug\net8.0\ref\OaklandCC.Ethos.eLumen.dll
